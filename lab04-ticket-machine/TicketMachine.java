@@ -29,7 +29,20 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
-
+    /**
+    * Set the price of a ticket
+    */
+    public void setPrice(int cost)
+    {
+      price=cost;
+    }
+    /**
+     * Reduce price by the given amount.
+     */
+    public void discount(int amount)
+    {
+      price=price-amount;
+    }
     /**
      * Return the price of a ticket.
      */

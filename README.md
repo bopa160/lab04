@@ -1,11 +1,12 @@
 # lab04
 
-All of these questions deal with the ticket machine example bundled in this repo. You should fork this repo and clone the fork to work on the code locally. 
+All of these questions deal with the ticket machine example bundled in this repo. You should fork this repo and clone the fork to work on the code locally.
 
 ## How can we tell from just its header that `setPrice` is a method and not a constructor?
 ```
 public void setPrice(int cost)
 ```
+We can tell that `setPrice`is a method because a constructor can not have void due to the fact that a constructor must give an outcome and a method does not have to.
 
 ## Complete the body of the `setPrice` method so that it assigns the value of its parameter to the price field. Write your new method in the `lab04-ticket-machine`.
 
@@ -16,10 +17,11 @@ public void setPrice(int cost)
  */
 public void increase(int points)
 {
-  ...
+  score=points+score;
 }
 ```
 ## Is the `increase` method in the previous question a mutator? If so, how could you demonstrate this?
+The `increase`method is a mutator. This could be seen when you add a certain amount of points to the score.
 
 ## Complete the following method, whose purpose is to subtract the value of its parameter from a field named `price`. Add your new method to the `lab04-ticket-machine`.
 ```
@@ -28,7 +30,7 @@ public void increase(int points)
  */
 public void discount(int amount)
 {
-  ...
+  price=price-discount;
 }
 ```
 
@@ -36,8 +38,9 @@ public void discount(int amount)
 ```
 System.out.println("My cat has green eyes.");
 ```
+My cat has green eyes.
 
-## Add a method called `prompt` to the `TicketMachine` class in the `lab04-ticket-machine`. This should have a `void` return type and take no parameters. The body of the method should print the following single line of output: 
+## Add a method called `prompt` to the `TicketMachine` class in the `lab04-ticket-machine`. This should have a `void` return type and take no parameters. The body of the method should print the following single line of output:
 ```
 Please insert the correct amount of money.
 ```
