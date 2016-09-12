@@ -50,7 +50,7 @@ public class TicketMachine
     {
         return price;
     }
-
+    
     /**
      * Return the amount of money already inserted for the
      * next ticket.
@@ -62,10 +62,16 @@ public class TicketMachine
     /**
      * show the price of a ticket
      */
-     public void int(showPrice)
+     public void showPrice()
      {
-         Scanner reader = new Scanner(system.in);
-         System.out.println("")
+         System.out.println("The price of a ticket is" + price + "cents")
+     }
+    /**
+     * Displays Please insert correct amount of money
+     */
+     public void prompt Ticketmachine()
+     {
+         System.out.println("Please insert correct amount of money")
      }
     /**
      * Receive an amount of money from a customer.
