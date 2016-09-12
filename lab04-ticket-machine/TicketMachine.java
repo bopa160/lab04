@@ -62,8 +62,11 @@ public class TicketMachine
     /**
      * show the price of a ticket
      */
-     public void 
-
+     public void int(showPrice)
+     {
+         Scanner reader = new Scanner(system.in);
+         System.out.println("")
+     }
     /**
      * Receive an amount of money from a customer.
      */
