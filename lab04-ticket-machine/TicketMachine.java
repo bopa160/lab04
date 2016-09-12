@@ -59,6 +59,10 @@ public class TicketMachine
     {
         return balance;
     }
+    /**
+     * show the price of a ticket
+     */
+     
 
     /**
      * Receive an amount of money from a customer.
