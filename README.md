@@ -50,12 +50,13 @@ Please insert the correct amount of money.
 ```
 System.out.println("# " + "price" + " cents.");
 ```
-What would be printed would be 
+What would be printed would be the amount of tickets but with price cents instead of the actual price ($x.xx).
 
 ## What would be printed here?
 ```
 System.out.println("# price cents.");
 ```
+Same answer as the question above.
 
 ## Could either of the previous two versions be used to show the price of tickets in different ticket machines? Explain your answer.
 
