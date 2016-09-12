@@ -21,6 +21,7 @@ public void increase(int points)
 }
 ```
 ## Is the `increase` method in the previous question a mutator? If so, how could you demonstrate this?
+
 The `increase`method is a mutator. This could be seen when you add a certain amount of points to the score.
 
 ## Complete the following method, whose purpose is to subtract the value of its parameter from a field named `price`. Add your new method to the `lab04-ticket-machine`.
@@ -49,6 +50,7 @@ Please insert the correct amount of money.
 ```
 System.out.println("# " + "price" + " cents.");
 ```
+What would be printed would be 
 
 ## What would be printed here?
 ```
