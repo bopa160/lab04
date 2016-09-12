@@ -62,7 +62,7 @@ public class TicketMachine
     /**
      * show the price of a ticket
      */
-     
+     public void 
 
     /**
      * Receive an amount of money from a customer.
