@@ -72,6 +72,8 @@ The two different ticket machines display two different outcomes. This is becaus
 
 ## Modify the constructor of `TicketMachine` in the `lab04-ticket-machine` so that it no longer has a parameter. Instead, the price of tickets should be fixed at 1,000 cents. What effect does this have when you construct ticket-machine objects within BlueJ?
 
+The effect of modifing the constructor of the Ticket Machine so it has no parameter and a set price of 1,000 cents. This caused the program to still ask for a price of a ticket (I enter a cost different from a 1,000 cents) but, when you get the price of a ticket it said that it was a 1,000 cents.
+
 ## Give the class two constructors. One should take a single parameter that specifies the price, and the other should take no parameter and set the price to be a default value of your choosing. Test your implementation by creating machines via the two different constructors.
 
 ## Implement a method, `empty`, that simulates the effect of removing all money from the machine. This method should have a `void` return type, and its body should simply set the `total` field to zero. Does this method need to take any parameters? Test your method by creating a machine, inserting some money, printing some tickets, checking the total, and then emptying the machine. Is the `empty` method a mutator or an accessor?
