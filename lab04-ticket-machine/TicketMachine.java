@@ -101,4 +101,12 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    /**
+     * Empty Ticketmachine
+     * zero out the total
+     */
+    public void emptymachine()
+    {
+        total=0
+    }
 }
